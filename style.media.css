@@ -56,7 +56,7 @@
          display: block;
          background-color: black;
          z-index: 100;
-         left: -5px;
+         left: -3px;
          top: 100%;
          display: flex;
          flex-direction: column;
