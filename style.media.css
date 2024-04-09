@@ -1,0 +1,233 @@
+ @media screen and (max-width:1213px) {
+     .allPage {
+         width: 100%;
+     }
+ }
+
+ @media screen and (max-width:972px) {
+     * {
+         font-size: clamp(12px, 8vw, 10px);
+     }
+ }
+
+ @media screen and (max-width:841px) {
+     * {
+         font-size: clamp(10px, 8vw, 10px);
+     }
+ }
+
+ @media screen and (max-width:841px) {
+     * {
+         font-size: clamp(8px, 7vw, 9px);
+     }
+ }
+
+ @media screen and (max-width:749px) {
+
+
+     .Contact {
+         display: none;
+         transition: 0.7s;
+     }
+
+     #justify {
+         display: block;
+         font-size: 20px;
+         color: white;
+         cursor: pointer;
+         transition: 0.7s;
+     }
+
+     .mycontact {
+         width: 100%;
+         height: 60px;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         display: flex;
+         position: relative;
+         transition: 0.8s;
+     }
+
+     #justify:hover .mycontactblock {
+         width: 210 px;
+         height: 300px;
+         position: absolute;
+         display: block;
+         background-color: black;
+         z-index: 100;
+         left: -5px;
+         top: 100%;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-around;
+         transition: 0.8s;
+     }
+ }
+
+ @media screen and (max-width:543px) {
+     .degree {
+         font-size: 10px;
+     }
+ }
+
+ @media screen and (max-width:508px) {
+     .degree {
+         font-size: 7px;
+         transition: 0.6s;
+     }
+
+     #MyPicture {
+         width: 100px;
+         height: 100px;
+         transition: 0.6s;
+     }
+
+     .MyPhoto {
+         height: 25%;
+     }
+ }
+
+ @media screen and (max-width:458px) {
+     .MyData {
+         width: 34%;
+         transition: 0.6s;
+
+     }
+
+     .AboutMe {
+         width: 66%;
+         transition: 0.6s;
+
+     }
+ }
+
+ @media screen and (max-width:458px) {
+     .degree {
+         font-size: 6px;
+         transition: 0.6s;
+     }
+ }
+
+ @media screen and (max-width:352px) {
+
+     * {
+         font-size: clamp(7px, 6vw, 8px);
+         transition: 0.6s;
+
+     }
+
+     .professionalskils {
+         font-size: 10px;
+         transition: 0.6s;
+     }
+ }
+
+ /* height  */
+
+
+
+ @media screen and (max-height:680px) {
+     * {
+         font-size: clamp(10px, 7vw, 9px);
+     }
+ }
+
+ @media screen and (max-height:625px) {
+     * {
+         font-size: clamp(9px, 6vw, 8px);
+     }
+
+     .Contact {
+         height: 34.5%;
+     }
+
+     .datainfo {
+         height: 6.5%;
+     }
+ }
+
+ @media screen and (max-height:535px) {
+     * {
+         font-size: clamp(8px, 5vw, 7px);
+     }
+
+     #MyPicture {
+         width: 100px;
+         height: 100px;
+         transition: 0.6s;
+     }
+
+     .MyPhoto {
+         height: 25%;
+     }
+
+     .Contact {
+         height: 39%;
+     }
+ }
+
+ @media screen and (max-height:479px) {
+
+
+     .Contact {
+         display: none;
+         transition: 0.7s;
+     }
+
+     #justify {
+         display: block;
+         font-size: 20px;
+         color: white;
+         cursor: pointer;
+         transition: 0.7s;
+     }
+
+     .mycontact {
+         width: 100%;
+         height: 60px;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         display: flex;
+         position: relative;
+         transition: 0.8s;
+     }
+
+     #justify:hover .mycontactblock {
+         width: 210px;
+         height: 217px;
+         position: absolute;
+         display: block;
+         background-color: black;
+         z-index: 100;
+         left: -5px;
+         top: 69%;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-around;
+         transition: 0.8s;
+     }
+
+     .datainfo {
+         height: 9%;
+     }
+     .information2{
+       
+        height: 20%;
+     }
+ }
+
+ @media screen and (max-height:399px) {
+     #justify:hover .mycontactblock {
+         height: 190px;
+     }
+
+     .mycontact {
+         margin-top: 29px;
+     }
+     .information2{
+       
+        height: 0%;
+     }
+ }

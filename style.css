@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-size: clamp(14px, 8vw, 10px);
+    font-family: "Roboto", sans-serif;
+}
+ body{
+    background-image: url(./images/programming-1200-x-900-picture-jnig05gedk2nvlr0.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+.allPage {
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    margin: auto;
+    
+}
+
+.MyData {
+    width: 30%;
+    height: 100%;
+    background-color: #013048;
+
+}
+
+.AboutMe {
+    width: 70%;
+    height: 100%;
+    background-image: url(./images/WhatsApp-Image-2023-11-10-at-2.25.36-PM.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#MyPicture {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.MyPhoto {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Name {
+    color: white;
+}
+
+.WebDeveloper {
+    color: rgba(255, 255, 255, 0.685);
+}
+
+.addres {
+    width: 100%;
+    height: auto;
+}
+
+.addressChild {
+    color: white;
+
+}
+
+.Contact {
+    width: 100%;
+    height: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.datainformation {
+    color: #109CE9;
+}
+
+.degree {
+    color: rgba(255, 255, 255, 0.767);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.compani {
+    color: rgba(255, 255, 255, 0.655);
+}
+
+.datainfo {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.language {
+    width: 80%;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.539);
+    margin-top: 7px;
+
+}
+
+.English {
+    width: 40%;
+    height: 100%;
+    background-color: #109CE9;
+
+}
+
+.Russia {
+    width: 16%;
+    height: 100%;
+    background-color: #109CE9;
+}
+
+.professionalSkils {
+    width: 100%;
+    height: auto;
+}
+
+.contentprofessiona {
+    width: 100%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentprofessiona div:nth-child(2) {
+    width: 50%;
+    height: 15px;
+    background-color: rgba(0, 0, 0, 0.584);
+    margin-left: 20px
+}
+
+.contentprofessiona:nth-child(2) div:nth-child(2) div {
+    height: 100%;
+    width: 90%;
+    background-color: #109CE9;
+}
+
+.contentprofessiona:nth-child(3) div:nth-child(2) div {
+    height: 100%;
+    width: 85%;
+    background-color: #109CE9;
+}
+
+.contentprofessiona:nth-child(4) div:nth-child(2) div {
+    height: 100%;
+    width: 50%;
+    background-color: #109CE9;
+}
+
+.contentprofessiona:nth-child(5) div:nth-child(2) div {
+    height: 100%;
+    width: 94%;
+    background-color: #109CE9;
+}
+
+.contentprofessiona:nth-child(6) div:nth-child(2) div {
+    height: 100%;
+    width: 100%;
+    background-color: #109CE9;
+}
+
+.contentprofessiona:nth-child(7) div:nth-child(2) div {
+    height: 100%;
+    width: 96%;
+    background-color: #109CE9;
+}
+
+.contentprofessiona:nth-child(8) div:nth-child(2) div {
+    height: 100%;
+    width: 100%;
+    background-color: #109CE9;
+}
+
+.mycontactblock {
+    display: none;
+}
+
+.mycontact {
+    display: none;
+}
+
+.professionalskils {
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.professionalSkils{
+    color: white;
+}
+.information1{
+    margin-top: 26px;
+    font-size: 17px;
+    color: white; 
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.information2{
+    padding:20px; 
+    height: 30%;
+}
